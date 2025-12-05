@@ -1,0 +1,54 @@
+Initial commit: Unity 6 Falling Sand v1.0
+
+Complete port from Java/libGDX to Unity 6 with C#.
+
+Features:
+- 30+ element types with cellular automata mechanics
+- Movable solids: Sand, Dirt, Snow, Gunpowder, Coal, Ember
+- Immovable solids: Stone, Brick, Wood, Ground, Titanium, Slime Mold
+- Liquids: Water, Oil, Acid, Lava, Blood, Cement
+- Gases: Steam, Smoke, Spark, Explosion Spark, Flammable Gas
+- Fire & heat propagation system
+- Chemical reactions (acid corrosion, water cooling, etc.)
+- Explosion mechanics with radial blast
+- Chunk-based spatial partitioning for optimization
+- Physics integration (Marching Squares + Douglas-Peucker)
+- Texture2D CPU-based rendering
+- 60+ FPS performance with optimizations
+
+Technical:
+- Architecture: Modular OOP with clear inheritance hierarchies
+- Performance: Frame modulation, enum comparisons, batch rendering
+- Documentation: Comprehensive guides for designers and coders
+- Element CA rules documented in plain English + pseudocode
+
+Credits:
+- Original Java/libGDX tutorial: CodeNMore (https://youtu.be/5Ka3tbbT-9E)
+- Unity C# port: 2024
+- Inspiration: Classic falling sand games, Noita
+
+Documentation:
+- README.md - Master documentation index
+- ELEMENTS_REFERENCE.md - Complete CA rules for all elements
+- SYSTEM_SETTINGS.md - Configuration and performance tuning
+- RENDER_PIPELINE.md - Rendering system technical details
+- PHYSICS_SYSTEM.md - Marching Squares & physics integration
+- ARCHITECTURE.md - Code structure and design patterns
+- QUICK_START.md - Fast setup guide
+- SETUP_INSTRUCTIONS.md - Detailed installation
+
+Project Structure:
+- Assets/Scripts/ - All C# code (60+ files)
+- Assets/Textures/ - Element textures
+- Assets/Scenes/ - MainScene.unity
+- ProjectSettings/ - Unity project configuration
+- Packages/ - Unity package manifest
+- media/ - Demo GIFs
+
+Ready for:
+- Future Jobs System integration
+- Burst Compiler optimization
+- Compute Shader rendering
+- Additional element types
+- Save/load system
+- Multiplayer support
