@@ -123,8 +123,10 @@ After Unity finishes importing:
 ## Controls
 
 - **Mouse**: Left-click to draw, scroll for brush size
-- **1-9**: Select elements (Sand, Water, Stone, Wood, Lava, Gunpowder, Oil, Acid, Snow)
-- **0**: Eraser
+- **1-9, 0**: Common elements (Sand, Water, Stone, Wood, Lava, Gunpowder, Oil, Acid, Snow, Eraser)
+- **F1-F12**: Additional elements (Dirt, Coal, Ember, Brick, Ground, Titanium, Slime Mold, Blood, Cement, Steam, Smoke, Spark)
+- **Q, E, R**: Gases (Explosion Spark, Flammable Gas, Gas)
+- **T**: Special (Player Meat)
 - **Space**: Pause
 - **C**: Clear all
 - **B**: Toggle brush type

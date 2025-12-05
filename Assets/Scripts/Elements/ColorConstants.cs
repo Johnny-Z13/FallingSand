@@ -34,6 +34,7 @@ namespace FallingSand.Elements
         private static readonly Color32 SPARK_COLOR = new Color32(255, 200, 50, 255);
         private static readonly Color32 EXPLOSIONSPARK_COLOR = new Color32(255, 150, 0, 255);
         private static readonly Color32 FLAMMABLEGAS_COLOR = new Color32(255, 100, 100, 150);
+        private static readonly Color32 GAS_COLOR = new Color32(180, 180, 200, 160);
         
         // Special
         private static readonly Color32 EMPTY_COLOR = new Color32(0, 0, 0, 255);
@@ -69,6 +70,7 @@ namespace FallingSand.Elements
                 ElementType.SPARK => SPARK_COLOR,
                 ElementType.EXPLOSIONSPARK => EXPLOSIONSPARK_COLOR,
                 ElementType.FLAMMABLEGAS => FLAMMABLEGAS_COLOR,
+                ElementType.GAS => GAS_COLOR,
                 ElementType.PLAYERMEAT => PLAYERMEAT_COLOR,
                 _ => EMPTY_COLOR
             };

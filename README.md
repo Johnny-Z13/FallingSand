@@ -190,6 +190,8 @@ This project follows **modular documentation** design. Each topic has its own de
 - **Scroll Wheel**: Adjust brush size (1-50 pixels)
 
 ### Keyboard - Element Selection
+
+**Number Keys (1-9, 0):**
 | Key | Element | Key | Element |
 |-----|---------|-----|---------|
 | `1` | Sand | `6` | Gunpowder |
@@ -197,6 +199,29 @@ This project follows **modular documentation** design. Each topic has its own de
 | `3` | Stone | `8` | Acid |
 | `4` | Wood | `9` | Snow |
 | `5` | Lava | `0` | Eraser (Empty) |
+
+**F Keys - Additional Solids:**
+| Key | Element | Key | Element |
+|-----|---------|-----|---------|
+| `F1` | Dirt | `F5` | Ground |
+| `F2` | Coal | `F6` | Titanium |
+| `F3` | Ember | `F7` | Slime Mold |
+| `F4` | Brick | | |
+
+**F Keys - Liquids & Gases:**
+| Key | Element | Key | Element |
+|-----|---------|-----|---------|
+| `F8` | Blood | `F11` | Smoke |
+| `F9` | Cement | `F12` | Spark |
+| `F10` | Steam | | |
+
+**Letter Keys - Gases & Special:**
+| Key | Element |
+|-----|---------|
+| `Q` | Explosion Spark |
+| `E` | Flammable Gas |
+| `R` | Gas |
+| `T` | Player Meat |
 
 ### Keyboard - Actions
 | Key | Action | Description |

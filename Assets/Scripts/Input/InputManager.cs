@@ -60,7 +60,7 @@ namespace FallingSand.InputSystem
         
         void HandleElementSelection()
         {
-            // Number keys for element selection
+            // Number keys for common elements (1-9, 0)
             if (Input.GetKeyDown(KeyCode.Alpha1)) SetElement(ElementType.SAND);
             if (Input.GetKeyDown(KeyCode.Alpha2)) SetElement(ElementType.WATER);
             if (Input.GetKeyDown(KeyCode.Alpha3)) SetElement(ElementType.STONE);
@@ -71,6 +71,34 @@ namespace FallingSand.InputSystem
             if (Input.GetKeyDown(KeyCode.Alpha8)) SetElement(ElementType.ACID);
             if (Input.GetKeyDown(KeyCode.Alpha9)) SetElement(ElementType.SNOW);
             if (Input.GetKeyDown(KeyCode.Alpha0)) SetElement(ElementType.EMPTYCELL);
+            
+            // F keys for additional movable solids
+            if (Input.GetKeyDown(KeyCode.F1)) SetElement(ElementType.DIRT);
+            if (Input.GetKeyDown(KeyCode.F2)) SetElement(ElementType.COAL);
+            if (Input.GetKeyDown(KeyCode.F3)) SetElement(ElementType.EMBER);
+            
+            // F keys for immovable solids
+            if (Input.GetKeyDown(KeyCode.F4)) SetElement(ElementType.BRICK);
+            if (Input.GetKeyDown(KeyCode.F5)) SetElement(ElementType.GROUND);
+            if (Input.GetKeyDown(KeyCode.F6)) SetElement(ElementType.TITANIUM);
+            if (Input.GetKeyDown(KeyCode.F7)) SetElement(ElementType.SLIMEMOLD);
+            
+            // F keys for liquids
+            if (Input.GetKeyDown(KeyCode.F8)) SetElement(ElementType.BLOOD);
+            if (Input.GetKeyDown(KeyCode.F9)) SetElement(ElementType.CEMENT);
+            
+            // F keys for gases
+            if (Input.GetKeyDown(KeyCode.F10)) SetElement(ElementType.STEAM);
+            if (Input.GetKeyDown(KeyCode.F11)) SetElement(ElementType.SMOKE);
+            if (Input.GetKeyDown(KeyCode.F12)) SetElement(ElementType.SPARK);
+            
+            // Letter keys for remaining gases
+            if (Input.GetKeyDown(KeyCode.Q)) SetElement(ElementType.EXPLOSIONSPARK);
+            if (Input.GetKeyDown(KeyCode.E)) SetElement(ElementType.FLAMMABLEGAS);
+            if (Input.GetKeyDown(KeyCode.R)) SetElement(ElementType.GAS);
+            
+            // Special elements
+            if (Input.GetKeyDown(KeyCode.T)) SetElement(ElementType.PLAYERMEAT);
         }
         
         void HandleMouseInput()

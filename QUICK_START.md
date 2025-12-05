@@ -70,18 +70,37 @@ Press **▶ Play** and you should see:
 
 ## 🎮 Controls Reference
 
+**Number Keys (1-9, 0):**
+
+| Key | Element | Key | Element |
+|-----|---------|-----|---------|
+| 1 | Sand | 6 | Gunpowder |
+| 2 | Water | 7 | Oil |
+| 3 | Stone | 8 | Acid |
+| 4 | Wood | 9 | Snow |
+| 5 | Lava | 0 | Eraser |
+
+**F Keys - Additional Elements:**
+
+| Key | Element | Key | Element |
+|-----|---------|-----|---------|
+| F1 | Dirt | F7 | Slime Mold |
+| F2 | Coal | F8 | Blood |
+| F3 | Ember | F9 | Cement |
+| F4 | Brick | F10 | Steam |
+| F5 | Ground | F11 | Smoke |
+| F6 | Titanium | F12 | Spark |
+
+**Letter Keys - Gases & Special:**
+
 | Key | Element |
 |-----|---------|
-| 1 | Sand |
-| 2 | Water |
-| 3 | Stone |
-| 4 | Wood |
-| 5 | Lava |
-| 6 | Gunpowder |
-| 7 | Oil |
-| 8 | Acid |
-| 9 | Snow |
-| 0 | Eraser |
+| Q | Explosion Spark |
+| E | Flammable Gas |
+| R | Gas |
+| T | Player Meat |
+
+**Actions:**
 
 | Key | Action |
 |-----|--------|
