@@ -724,7 +724,6 @@ void RenderMatrix()
 - **System configuration:** [SYSTEM_SETTINGS.md](SYSTEM_SETTINGS.md)
 - **Element colors and properties:** [ELEMENTS_REFERENCE.md](ELEMENTS_REFERENCE.md)
 - **Overall code structure:** [ARCHITECTURE.md](ARCHITECTURE.md)
-- **Performance tuning:** [PERFORMANCE_OPTIMIZATIONS.md](PERFORMANCE_OPTIMIZATIONS.md)
 
 ---
 
